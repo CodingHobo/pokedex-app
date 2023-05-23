@@ -2,6 +2,9 @@ import React from "react"
 const IMG_SRC_BASE =
 "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/"
 
+/** Takes a single pokemon object.
+ * Shows a single Pokemon, with their name, image, and type.
+ */
 
 function Pokecard ({name, type, id}) {
   return (

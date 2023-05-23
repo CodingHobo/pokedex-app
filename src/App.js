@@ -2,6 +2,10 @@ import logo from "./logo.svg";
 import "./App.css";
 import Pokedex from "./Pokedex";
 
+/**
+ * Render a single Pokedex component containing array of pokemons
+ */
+//TODO: move array to global
 function App() {
   return (
     <div>
